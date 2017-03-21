@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: table;
+    background: #fbfff9;
+    overflow: hidden;
+}
+
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ascii {
+    display: inline-block;
+    font-family: "Droid Sans Mono", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: calc(20px * .45);
+    color: #333;
+}
+
+.wave {
+    color: #a0a09d;
+}
